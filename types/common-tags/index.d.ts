@@ -162,7 +162,7 @@ export const TemplateTag: {
  * @return a TemplateTag transformer
  */
 export function trimResultTransformer(
-    side?: 'start' | 'end' | 'left' | 'right' | ''
+    side?: 'start' | 'end' | 'left' | 'right' | 'smart' | ''
 ): TemplateTransformer;
 
 /**
